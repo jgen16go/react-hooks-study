@@ -1,0 +1,32 @@
+{
+  "name": "react-hook-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/html/index.html",
+    "build": "parcel build ./src/html/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgen16go/react-hook-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgen16go/react-hook-study/issues"
+  },
+  "homepage": "https://github.com/jgen16go/react-hook-study#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "parcel-bundler": "^1.10.2",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2"
+  }
+}
